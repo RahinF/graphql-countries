@@ -56,7 +56,6 @@ const Home: NextPage<Props> = ({ continents }) => {
       </Head>
 
       <Heading text="continents" />
-
       <ContainerLayout>
         {continents.map((continent) => (
           <Item
